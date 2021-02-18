@@ -1,0 +1,29 @@
+{
+    "name": "happychat",
+    "version": "1.0.0",
+    "description": "A chat tool developed via Node.js + Express.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "nodemon ./server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ezharjan/HappyChat.git"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "socketio"
+    ],
+    "author": "Alexander Ezharjan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Ezharjan/HappyChat/issues"
+    },
+    "homepage": "https://github.com/Ezharjan/HappyChat#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^3.1.1"
+    }
+}
